@@ -1,0 +1,37 @@
+{
+  "name": "myntcore-message",
+  "version": "1.0.3",
+  "description": "Myntcoin Messages for Myntcore",
+  "author": "Under",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "myntcoin",
+    "myntcore",
+    "btc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silence48/myntcore-message.git"
+  },
+  "dependencies": {
+    "myntcore-lib": "silence48/myntcore-lib"
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+    "myntcore-build": "silence48/myntcore-build",
+    "brfs": "^1.3.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "license": "MIT"
+}

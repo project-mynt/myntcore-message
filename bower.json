@@ -1,0 +1,29 @@
+{
+  "name": "myntcore-message",
+  "main": "./myntcore-message.min.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/silence48/myntcore-message",
+  "authors": [
+    "BitPay"
+  ],
+  "description": "Myntcoin Message Verification and Signing for myntcore",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "myntcoin",
+    "myntcore",
+    "btc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
