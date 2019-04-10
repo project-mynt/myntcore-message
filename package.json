@@ -1,8 +1,8 @@
 {
   "name": "myntcore-message",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Myntcoin Messages for Myntcore",
-  "author": "Under",
+  "author": "Silence <silence@rpgcoin.gg>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -23,12 +23,12 @@
     "url": "https://github.com/silence48/myntcore-message.git"
   },
   "dependencies": {
-    "myntcore-lib": "silence48/myntcore-lib"
+    "myntcore-lib": "^1.0.0"
   },
   "peerDependencies": {
   },
   "devDependencies": {
-    "myntcore-build": "silence48/myntcore-build",
+    "myntcore-build": "^1.0.0",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
